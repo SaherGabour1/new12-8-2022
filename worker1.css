@@ -1,0 +1,266 @@
+* { 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.main { 
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right,#9c27b0,#8ecdff);
+ 
+}
+
+nav { 
+  width: 90%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  font-size: 128%;
+}
+
+.logo { 
+  flex-basis: 10%;
+  
+  
+}
+
+.logo img { 
+  width: 160px;
+  
+}
+
+.nav-links { 
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links ul li { 
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+
+}
+
+.nav-links ul li a{ 
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.nav-links ul li a::after { 
+  content: '';
+  width: 0%;
+  height: 3.5px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  
+}
+
+.nav-links ul li a:hover::after { 
+  width: 100%;
+
+
+}
+
+
+
+
+
+.singin-a { 
+ 
+  text-decoration:none ;
+}
+.singin-a:hover { 
+  background: #0ca04e;
+  color: white;
+}
+
+.singout-a:hover { 
+  background: #0ca04e;
+  color: white;
+}
+.singout-a { 
+ 
+  text-decoration:none ;
+}
+
+.signin a{ 
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 0 20px;
+  color:black;
+  font-size: 28px;
+  font-family: "Clarkson",Helvetica,sans-serif;
+  text-align: center;
+}
+
+.signout a{ 
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 0 20px;
+  color: black;
+  font-size: 28px;
+  font-family: "Clarkson",Helvetica,sans-serif;
+  text-align: center;
+}
+
+.signin-signout { 
+  display: inline-block;
+  margin-bottom:20px;
+  padding: 0px 10px;
+  display: flex;
+  grid-gap: 16px;
+
+
+}
+hr { 
+  margin-left: 15%; 
+
+}
+
+.middle-title { 
+  font-size: 6ex;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.form-text { 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: xx-large;
+  text-align: center;
+  margin-right: 135px;
+  
+
+}
+
+
+
+
+.form-text2 { 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: xx-large;
+  text-align: center;
+  margin-right: 89px;
+  
+
+}
+.form { 
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  margin: 0 auto;
+  width: 520px;
+  padding: 3%;
+  height: 20%;
+  
+}
+.clickhere { 
+  font-size: large;
+  color: rgb(3, 3, 78);
+  margin-left: 10% ;
+  font-family: Arial, Helvetica, sans-serif; 
+  
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px auto;
+  border-radius: 5px; 
+  border: none;
+  background: #1c87c9; 
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  }
+
+  button:hover {
+      background: #26a9e0;
+      }
+
+.form-minititle { 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.form-minititle2  { 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: medium;
+  text-align: right;
+  margin-left: 2% ;
+}
+.clickhere2 { 
+  font-size: medium;
+  color:rgb(255, 0, 0) ;
+  margin-left: 60% ;
+  font-family: Arial, Helvetica, sans-serif; 
+  
+}
+
+
+.ct2 { 
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+}
+
+#name1 { 
+  text-align: right;
+ width: 68%  ;
+  height: 15%;
+}
+
+#name3 { 
+  text-align: right;
+ width: 62%  ;
+
+  height: 15%;
+}
+
+
+.footer-copyright { 
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  margin-top: 13.4%;
+
+}
+
+
+.desktop-footer { 
+  background-color: #5792db;
+  
+}
+p { 
+  line-height: 1;
+  letter-spacing: normal;
+  font-family: "Open Sans","Noto Kufi Arabic","Arial",sans-serif;
+  font-size: 25px;
+  
+}
+
+h5 { 
+  font-family: "Open Sans","Noto Kufi Arabic","Arial",sans-serif;
+  font-size: 17px;
+  line-height: 1;
+  letter-spacing: normal;
+}
+.footer-copyright { 
+  color: rgb(204, 204, 204);
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  padding-left: 4%;
+
+   
+}

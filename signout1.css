@@ -1,0 +1,405 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.main { 
+    width: 100%;
+   
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right,#9c27b0,#8ecdff);
+   padding-bottom: 5%;
+}
+
+nav { 
+    width: 90%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    font-size: 128%;
+}
+
+.logo { 
+    flex-basis: 10%;
+    
+    
+}
+
+.logo img { 
+    width: 160px;
+    
+}
+
+.nav-links { 
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li { 
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.nav-links ul li a{ 
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.nav-links ul li a::after { 
+    content: '';
+    width: 0%;
+    height: 3.5px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+
+.nav-links ul li a:hover::after { 
+    width: 100%;
+
+
+}
+
+
+
+
+
+.singin-a { 
+   
+    text-decoration:none ;
+}
+.singin-a:hover { 
+    background: #0ca04e;
+    color: white;
+}
+
+.singout-a:hover { 
+    background: #0ca04e;
+    color: white;
+}
+.singout-a { 
+   
+    text-decoration:none ;
+}
+
+.signin a{ 
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 0 20px;
+    color:black;
+    font-size: 28px;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    text-align: center;
+}
+
+.signout a{ 
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: black;
+    font-size: 28px;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    text-align: center;
+}
+
+.signin-signout { 
+    display: inline-block;
+    margin-bottom:20px;
+    padding: 0px 10px;
+    display: flex;
+    grid-gap: 16px;
+  
+
+}
+hr { 
+    margin-left: 15%; 
+  
+  }
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+   
+  h3 { 
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   }
+    .hr {
+    color: #a9a9a9;
+    opacity: 0.3;
+    }
+    .main-block {
+    max-width: 880px; 
+    min-height: 580px; 
+    padding: 10px 0;
+    margin: auto;
+    border-radius: 5px; 
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    background: #ebebeb; 
+    }
+    form {
+    margin: 0 30px;
+    }
+    .account-type, .gender {
+        font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    text-align: center;
+    }
+    input[type=radio] {
+    display: none;
+    }
+   
+    label.radio {
+    position: relative;
+    display: inline-block;
+    padding-top: 4px;
+    margin-right: 20px;
+    text-indent: 30px;
+    overflow: visible;
+    cursor: pointer;
+    }
+    label.radio:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1c87c9;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 4px;
+    top: 8px;
+    left: 4px;
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+    input[type=text] {
+    width: 80%;
+    text-align: right;
+    height: 36px;
+    margin: 13px 0 0 110px;
+    padding-left: 85px; 
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    }
+
+ 
+    input[type=password] {
+    margin-bottom: 15px;
+    text-align: right;
+    height: 36px;
+    margin: 13px 0 0 110px;
+    padding-left: 540px; 
+    
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    }
+    
+    .btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+    button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px; 
+    border: none;
+    background: #1c87c9; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    }
+    button:hover {
+    background: #26a9e0;
+    }
+
+  .label1 { 
+    font-size: 20px;
+    padding-left: 85%;
+  }
+  .label2 { 
+    font-size: 20px;
+    padding-left: 82%;
+  }
+ 
+  .label3{ 
+    font-size: 20px;
+    padding-left: 90%;
+  }
+ 
+  .label4 { 
+    font-size: 20px;
+    padding-left: 88%;
+  }
+ 
+  .label5 { 
+    font-size: 20px;
+    padding-left: 90%;
+  }
+ 
+ 
+  .label7{ 
+    font-size: 20px;
+    padding-left: 87%;
+  }
+ 
+ 
+
+h5 { 
+    font-family: "Open Sans","Noto Kufi Arabic","Arial",sans-serif;
+    font-size: 17px;
+    line-height: 1;
+    letter-spacing: normal;
+}
+.footer-copyright { 
+    color: rgb(204, 204, 204);
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 4%;
+
+     
+}
+
+
+
+.col-md-3{
+    font-size: large;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 7%;
+}
+
+.label8 { 
+    font-size: large;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 88%;
+
+}
+
+
+
+.middle-title { 
+    font-size: 5.5ex;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.volright { 
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(186, 230, 121);
+}
+.volcenter { 
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(186, 230, 121);
+}
+.volleft { 
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(186, 230, 121);
+}
+
+
+.volbox { 
+    width: 41%;
+padding-left:28%;
+flex-direction: row;
+margin: 0%;
+justify-content: space-between;
+background-color: white;
+align-items: center;
+position: relative;
+display: flex;
+background-color: rgba(235, 222, 222, 0.1);
+}
+
+
+
+.imgbox { 
+    width: 47.9%;
+    padding-left: 25%;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    display: flex;
+    background-color: rgba(240, 225, 225, 0.1);
+}
+
+input[type=reset] {
+    font-size: large;
+    color: rgb(160, 52, 52);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type=reset]:hover {
+    background-color: #c7cfc8;
+  }
+  
+
+
+  .text-center { 
+   text-align: right;
+   font-size: large;
+   padding-right: 3%;
+   text-decoration: none;
+   
+   
+  }
+  .text-center  a { 
+    
+    color: rgb(212, 59, 136);
+    padding-right: 2%;
+}

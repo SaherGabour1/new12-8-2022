@@ -1,0 +1,111 @@
+<script>
+
+
+    function onlyNumberKey(evt) {
+  
+        // Only ASCII character in that range allowed
+        var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+  
+        // Check if the inserted charcter is a number in ASCII code
+        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+            return false;
+        return true;
+    }
+  
+    function onlyLettersKey(evt) {
+  
+        // Only ASCII character in that range allowed
+        var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+  
+        // Check if the inserted charcter is a letter in ASCII code
+        if ((ASCIICode > 64 && ASCIICode < 91) || (ASCIICode > 96 && ASCIICode < 123))
+            return true;
+        return false;
+    }
+  
+
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="worker1.css">
+    <title>כניסת צוות רפואי</title>
+</head>
+<body>
+    <div class="main" >
+        <nav>
+            <div class="logo">
+                <img src="Picture3.png" > 
+            </div>
+            <div class="nav-links" >
+                <ul>
+                    <li><a href="contact.html" >צור קשר </a></li>
+                    <li><a href="" >רשימת חולים</a></li>
+                    <li><a href="hospital.html" >מעבדות בנק הדם</a></li>
+                    <li><a href="home.html" >דף בית  </a></li>
+                </ul>   
+            </div> 
+            <div class="signin-signout">
+                <h2 class="signout" > 
+                    <a class="singout-a" href="signout.html">הרשמה</a> 
+                </h2>
+                <h2 class="signin"> 
+                    <a class="singin-a" href="signin.html">כניסה</a> 
+                </h2>
+            </div>
+        </nav> 
+
+        <hr width="70%" > 
+        <br>
+
+        <h2 class="middle-title">
+            כניסת צוות רפואי
+    </h2>
+
+    <br></br>
+    
+    <form action="signinworker.php" method="POST" >
+    <div class="form" > 
+        
+        <div class="form-text" >
+           
+            
+        <input type="text" id="name1"  name="idnum" pattern="[0-9]{9}"  placeholder="ת.ז "  onkeypress="return onlyNumberKey(event)" maxlength="9" required/>
+        <label for="idnum">:ת.ז </label>
+      
+
+        </div>
+        <div class="form-text2" >
+        <input type="password" id="name3"  name="passwords" placeholder="סיסמה" maxlength="15">
+        <label for="password">: סיסמה  </label>
+        </div>
+        <!--- <h3 class="form-minititle"> עובד יקר ,שכחת סיסמה؟</h3> -->
+        <a class="clickhere" href="password_recovery.html">שכחת סיסמה؟</a>
+        <br></br>
+        
+        <button type="submit" name="submit">כניסה</button>
+        <div class="ct2" >
+        <a class="clickhere2" href="signout.html">הרשמה</a>
+        <h3 class="form-minititle2"> אין לך חשבון؟</h3>
+        </div>
+</div>
+    </form>
+
+
+        <footer class="footer-copyright">
+            <h5>
+            זכויות יוצרים שמורות ל- נביה בולוס ו- סאהר גבור &copy;  
+            </h5>
+        </footer>
+    
+
+        
+    
+      
+  </div>
+</body>
+</html>

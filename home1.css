@@ -1,0 +1,289 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.main { 
+    width: 100%;
+    
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right,#9c27b0,#8ecdff);
+    padding-bottom: 4%;
+}
+
+nav { 
+    width: 90%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    font-size: 128%;
+}
+
+.logo { 
+    flex-basis: 10%;
+    
+    
+}
+
+.logo img { 
+    width: 160px;
+    
+}
+
+.nav-links { 
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li { 
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.nav-links ul li a{ 
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.nav-links ul li a::after { 
+    content: '';
+    width: 0%;
+    height: 3.5px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+
+.nav-links ul li a:hover::after { 
+    width: 100%;
+
+
+}
+
+
+
+
+
+.singin-a { 
+   
+    text-decoration:none ;
+}
+.singin-a:hover { 
+    background: #0ca04e;
+    color: white;
+}
+
+.singout-a:hover { 
+    background: #0ca04e;
+    color: white;
+}
+.singout-a { 
+   
+    text-decoration:none ;
+}
+
+.signin a{ 
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 0 20px;
+    color:black;
+    font-size: 28px;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    text-align: center;
+}
+
+.signout a{ 
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: black;
+    font-size: 28px;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    text-align: center;
+}
+
+.signin-signout { 
+    display: inline-block;
+    margin-bottom:20px;
+    padding: 0px 10px;
+    display: flex;
+    grid-gap: 16px;
+  
+
+}
+hr { 
+    margin-left: 15%; 
+  
+  }
+
+
+.page-hero_image { 
+    max-width: 1260px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 6%;
+    
+      
+}
+
+.donate { 
+
+    
+    position: absolute;
+    top: 43%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ 
+}
+.donatenow  { 
+    
+  width: 30%;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 15px 50px;
+  background: transparent;
+  position: relative;  
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+  background-color: rgb(233, 3, 3);
+  
+}
+.donatenow:hover {
+    background-color: rgb(136, 15, 15);
+    color: white;
+  }
+
+
+h5 { 
+    font-family: "Open Sans","Noto Kufi Arabic","Arial",sans-serif;
+    font-size: 17px;
+    line-height: 1;
+    letter-spacing: normal;
+}
+.footer-copyright { 
+    color: rgb(204, 204, 204);
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 4%;
+
+     
+}
+
+
+
+h4 { 
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 1%;
+}
+p{ 
+    font-size: large;
+    text-align: center;
+}
+h3 { 
+    font-size: 50px;
+    color: black;
+    
+}
+.title { 
+    text-align: center;
+}
+
+
+.row0 { 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.row { 
+    margin-top: 7%;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 2%;
+
+}
+
+.col1 { 
+    flex-basis: 31%;
+    background: #f0eeee;
+    border-radius: 10px ;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.col2 { 
+    flex-basis: 31%;
+    background: #f0eeee;
+    border-radius: 10px ;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+
+
+
+.info1 { 
+    text-align: center;
+    color: rgb(72, 49, 156);
+    font-size: x-large;
+    text-decoration: none;
+    top: 40%;
+}
+
+.baseinfo { 
+    width: 14%;
+    border: 1.5px solid rgb(111, 81, 218);
+    padding: 18px 50px;
+    position: absolute;
+    top: 82%;
+    left: 62%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+.info1:hover {
+    
+    color: rgb(255, 250, 250);
+  }
+
+  .baseinfo:hover {
+    background-color: rgb(140, 118, 219);
+ 
+  }
+
+  .infoimg { 
+    padding-left: 15%;
+  
+    
+  }
+
+
+
+.pageimg { 
+    max-width: 1260px;
+    margin: 0 110px;
+   
+    
+}
+
+

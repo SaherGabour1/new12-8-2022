@@ -1,0 +1,363 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.main { 
+    width: 100%;
+    
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right,#9c27b0,#8ecdff);
+    padding-bottom: 4%;
+}
+
+nav { 
+    width: 90%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    font-size: 128%;
+}
+
+.logo { 
+    flex-basis: 10%;
+    
+    
+}
+
+.logo img { 
+    width: 160px;
+    
+}
+
+.nav-links { 
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li { 
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.nav-links ul li a{ 
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links ul li a::after { 
+    content: '';
+    width: 0%;
+    height: 3.5px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li a:hover::after { 
+    width: 100%;
+
+
+}
+
+
+
+.singin-a:hover { 
+    background: #0ca04e;
+    color: white;
+}
+
+.singout-a:hover { 
+    background: #0ca04e;
+    color: white;
+}
+
+.singin-a { 
+   
+    text-decoration:none ;
+}
+.singout-a { 
+   
+    text-decoration:none ;
+}
+.signin a{ 
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 0 20px;
+    color:black;
+    font-size: 28px;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    text-align: center;
+}
+
+.signout a{ 
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 0 20px;
+    color: black;
+    font-size: 28px;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    text-align: center;
+}
+
+.signin-signout { 
+    display: inline-block;
+    margin-bottom:20px;
+    padding: 0px 10px;
+    display: flex;
+    grid-gap: 16px;
+  
+
+}
+hr { 
+    margin-left: 15%; 
+  
+  }
+
+  
+  .titlemiddle  {
+    
+    
+    font-size: medium;
+    text-align: right;
+    padding-right: 3%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textmiddle h2 { 
+    font-size: large;
+    text-align: right;
+    padding-right: 5%;
+    color: #3f4242;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mixhospitals { 
+    display: flex;
+    position: relative;
+}
+
+.hospitalcolor  { 
+        text-align: center;
+        text-align: right;
+        font-size: 25px;
+        cursor: pointer;
+        padding-right: 5%;
+      
+   
+}
+
+.phone {
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    padding-right: 10%;
+    text-align-last: center;
+    
+}
+
+.address {
+    text-align: left;
+    font-size: 25px;
+    cursor: pointer;
+    padding-right: 10%;
+    text-align-last: left;
+    
+}
+
+
+
+.a1{ 
+    
+    padding: 0 100px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a1:hover {
+    background-color: hsl(130, 45%, 37%);
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .a2{ 
+    
+    padding: 0 107px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a2:hover {
+    background-color: hsl(212, 80%, 34%);
+    color: rgb(0, 0, 0);
+  }
+  
+
+  .a3{ 
+    
+    padding: 0 80px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a3:hover {
+    background-color: hsl(0, 69%, 50%);
+    color: rgb(0, 0, 0);
+  }
+
+  
+
+  
+  .a4{ 
+    
+    padding: 0 94px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a4:hover {
+    background-color: hsl(76, 83%, 43%);
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .a5{ 
+    
+    padding: 0 105px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a5:hover {
+    background-color: hsl(22, 85%, 36%);
+    color: rgb(0, 0, 0);
+  }
+
+  .a6{ 
+    
+    padding: 0 50px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a6:hover {
+    background-color: hsl(130, 45%, 37%);
+    color: rgb(0, 0, 0);
+  }
+
+
+  .a7{ 
+    
+    padding: 0 73px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a7:hover {
+    background-color: hsl(212, 80%, 34%);
+    color: rgb(0, 0, 0);
+  }
+
+  .a8{ 
+    
+    padding: 0 90px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a8:hover {
+    background-color: hsl(0, 69%, 50%);
+    color: rgb(0, 0, 0);
+  }
+
+
+  .a9{ 
+    
+    padding: 0 115px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a9:hover {
+    background-color: hsl(76, 83%, 43%);
+    color: rgb(0, 0, 0);
+  }
+
+
+  .a10{ 
+    
+    padding: 0 110px;
+    border: 2px solid black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    border-radius: 9px;
+    font-size: x-large;
+    color: rgb(65, 19, 19);
+    text-decoration: none;
+}
+.a10:hover {
+    background-color: hsl(22, 85%, 36%);
+    color: rgb(0, 0, 0);
+  }
+
+
+
+.hospital-img {
+    margin-left: 40%;
+    margin-bottom: 0.5%;
+
+ }
+ h5 { 
+    font-family: "Open Sans","Noto Kufi Arabic","Arial",sans-serif;
+    font-size: 17px;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+ .footer-copyright { 
+    color: rgb(204, 204, 204);
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 3%;
+
+  
+}
+
+
